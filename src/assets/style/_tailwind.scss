@@ -74,7 +74,8 @@
        
     }
     &__hero-btn {
-        @apply py-[17px] px-[30px] bg-[#FFFFFF] font-Inter font-semibold border-solid border-[#12141D] border-2
+        @apply py-[17px] px-[30px] bg-[#FFFFFF]
+         font-Inter font-semibold border-solid border-[#12141D] border-2
     }
     &__header-btn {
         @apply py-[12.70px] px-[20px]
@@ -87,5 +88,5 @@
 ////  links style 
 a {
     @apply inline-flex text-[#222] font-medium no-underline
-}
+} 
 

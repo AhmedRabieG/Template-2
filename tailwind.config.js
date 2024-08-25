@@ -7,10 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        
       },
       screens: {
-        
       },
       fontFamily: {
         Inter: "Inter",
@@ -22,8 +20,7 @@ export default {
         base: ["1rem", { lineHeight: "1.25", fontWeight: "400" }],
         lg: ["1.5rem", { lineHeight: "1.25", fontWeight: "500" }]
       },
-      colors: { 
-
+      colors: {
       }
 
     },
