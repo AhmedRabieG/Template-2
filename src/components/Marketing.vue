@@ -83,7 +83,7 @@ import { onMounted, ref } from "vue";
     // Scroll event listener to trigger counter updates
     window.addEventListener("scroll", () => {
         const scrollPosition = window.pageYOffset;
-        const triggerPosition = container.offsetTop - container.offsetHeight - 200;
+        const triggerPosition = container.offsetTop - container.offsetHeight - 300;
         const resetPosition = container.offsetTop - container.offsetHeight - 500;
 
         if (scrollPosition > triggerPosition && !activated) {
