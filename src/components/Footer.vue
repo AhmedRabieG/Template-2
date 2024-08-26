@@ -5,7 +5,7 @@
 <template>
   <section class="footer">
     <div class="container">
-        <div class="max-w-[1296px] mx-auto flex gap-4 justify-between pb-[72px]">
+        <div class="max-w-[1296px] mx-auto flex flex-wrap gap-4 justify-between pb-[72px]">
 
             <div class="max-w-[324px]">
                 <h3 class="mb-[20px] text-[30px] font-Kayakbold font-bold">Groclone.</h3>
@@ -23,7 +23,7 @@
            
             <div class="max-w-[147px]">
                 <h4 class="font-medium mb-[17px]">Services</h4>
-                <ul class="[&>li]:mb-[10px]  [&>li>a]:font-light [&>li>a]:opacity-80 ">
+                <ul class="[&>li]:mb-[15px]  [&>li>a]:font-light [&>li>a]:opacity-80 ">
                     <li><a href="#">Incident Responder</a></li>
                     <li><a href="#">Secure Managed IT</a></li>
                     <li><a href="#">Check website Url</a></li>
@@ -33,7 +33,7 @@
 
             <div class="max-w-[156px]">
                 <h4 class="font-medium mb-[17px]">About Us</h4>
-                <ul class="[&>li]:mb-[10px]  [&>li>a]:font-light [&>li>a]:opacity-80 ">
+                <ul class="[&>li]:mb-[15px]  [&>li>a]:font-light [&>li>a]:opacity-80 ">
                     <li><a href="#">Payment Plans</a></li>
                     <li><a href="#">Make saving More</a></li>
                     <li><a href="#">Tax Calculator</a></li>
@@ -43,18 +43,18 @@
 
             <div class="max-w-[222px]">
                 <h4 class="font-medium mb-[17px]">Contact Info</h4>
-                <ul class="[&>li]:mb-[10px] [&>li>a]:font-light [&>li>a]:opacity-80 ">
-                    <li><a href="#">455 West Orchard Street Kings Mountain, NC 280867</a></li>
+                <ul class="[&>li]:mb-[15px] [&>li>a]:font-light [&>li>a]:opacity-80 ">
+                    <li class="!mb-[30px]"><a href="#">455 West Orchard Street Kings Mountain, NC 280867</a></li>
                     <li>
-                        <a href="#">
-                            <img src="" alt="">
-                            <span>+088 (246) 642-27-10</span>
+                        <a class="" href="#">
+                            <img src="../assets/images/green-phone-icon.svg" alt="">
+                            <span class="text-[#12141D] font-semibold">+088 (246) 642-27-10</span>
                         </a>
                     </li>
                     <li class="last:mb-0">
-                        <a href="#">
-                            <img src="" alt="">
-                            <span>example@mail.com</span>
+                        <a class="" href="#">
+                            <img src="../assets/images/greem-mail-icon.svg" alt="mail">
+                            <span class="text-[#12141D] font-semibold">example@mail.com</span>
                         </a>
                     </li>
                 </ul>

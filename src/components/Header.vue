@@ -4,7 +4,7 @@
 <template>
     <section class="header  bg-[#D5E2F1] ">
         <div class="container">
-            <div class="flex justify-between py-[31px] items-center outline-0">
+            <div class="flex justify-between py-[31px] items-center outline-0 max-w-[1308px] mx-auto">
                 <h3 class="text-[18px] font-Kayakbold ">Groclone.</h3>
                 <ul class="header__nav flex gap-[40px] [&>li>a]:py-[12.5px]">
                     <li><a href="#">Demos</a></li>

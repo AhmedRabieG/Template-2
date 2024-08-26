@@ -14,7 +14,7 @@
 }
 @font-face {
   font-family: ClashDisplay;
-  src: url(../fonts/ClashDisplay-Semibold.ttf);
+  src: url(../fonts/ClashDisplay-Semibold.otf);
   font-weight: 600;
 }
 @font-face {
@@ -65,7 +65,7 @@ body {
 }
 @media (min-width: 1920px) {
   .container {
-    max-width: 1340px;
+    max-width: 1352px;
     padding-right: 1rem;
     padding-left: 1rem;
   }
